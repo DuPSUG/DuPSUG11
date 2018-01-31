@@ -23,7 +23,7 @@ The agenda for the night will be released in full in the coming week as the spea
 | Time | Speaker | Title |
 | ------------- | ------------- | ------------- | 
 | 1730-1830 | Tools4Ever | Walk-in and Pizzas |
-| 1830-1900 | [Jaap Brasser](https://twitter.com/Jaap_Brasser) | Implementing Chat Automation with PowerShell |
+| 1830-1900 | [Jaap Brasser](https://twitter.com/Jaap_Brasser) | [Implementing Chat Automation with PowerShell](https://github.com/DuPSUG/DuPSUG11/tree/master/Jaap%20Brasser) |
 | 1900-1945 | [Sander Stad](https://twitter.com/SQLStad) | Simplifying Log Shipping using dbatools |
 | 1930-2000 | DuPSUG | Break |
 | 2000-2045 | [Tjeerd Seinen](https://twitter.com/tseinen) | |
