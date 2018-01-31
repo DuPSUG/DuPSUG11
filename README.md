@@ -6,13 +6,14 @@ This is an evening edition of our user group. This means we will start off with 
 
 # Location
 Tools4Ever is sponsoring both the location and the food, so a big thank you to them. They are located at the following address:
+
 Amalialaan 126C
+
 3743 KJ Baarn
 
 Parking is available at the front of the building and there is free streetside parking available as well.
 
 # Speakers
-* Mathias Jessen
 * Sander Stad
 * Tjeerd Seinen
 * Jaap Brasser
