@@ -37,26 +37,26 @@ $result = Invoke-DbaLogShipping -SourceSqlInstance SQLDB1 `
     -Force
 
 # 07 - Test the log shipping status
-Test-DbaLogShippingStatus -SqlInstance sstad-pc -Simple
+Test-DbaLogShippingStatus -SqlInstance SQLDB1 -Simple
 
 # 08 - Test the log shipping status with different parameters
-Test-DbaLogShippingStatus -SqlInstance sstad-pc -Simple -Primary
+Test-DbaLogShippingStatus -SqlInstance SQLDB1 -Simple -Primary
 
-Test-DbaLogShippingStatus -SqlInstance sstad-pc -Simple -Secondary
+Test-DbaLogShippingStatus -SqlInstance SQLDB1 -Simple -Secondary
 
-Test-DbaLogShippingStatus -SqlInstance sstad-pc -Simple -Database DB1_LS
+Test-DbaLogShippingStatus -SqlInstance SQLDB1 -Simple -Database DB1_LS
 
 # 09 - Lots of errors with log shipping
-Get-DbaLogShippingError -SqlInstance sstad-pc
+Get-DbaLogShippingError -SqlInstance SQLDB1
 
 # 10 - Count the errors
-(Get-DbaLogShippingError -SqlInstance sstad-pc).Count
+(Get-DbaLogShippingError -SqlInstance SQLDB1).Count
 
 # 11 - Restore database to normal state
-Invoke-DbaLogShippingRecovery -SqlInstance sstad-pc -Database DB3__LS
+Invoke-DbaLogShippingRecovery -SqlInstance SQLDB1 -Database DB3__LS
 
-<# $result = Invoke-DbaLogShipping -SourceSqlInstance sstad-pc `
-    -DestinationSqlInstance sstad-pc `
+<# $result = Invoke-DbaLogShipping -SourceSqlInstance SQLDB1 `
+    -DestinationSqlInstance SQLDB1 `
     -Database DB3 `
     -BackupNetworkPath \\sstad-pc\logshipping\backup `
     -BackupLocalPath C:\temp\logshipping\backup `
